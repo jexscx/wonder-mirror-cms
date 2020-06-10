@@ -1,0 +1,48 @@
+[
+    {
+        "id": 0,
+        "name": "Handpicked character",
+        "active": false,
+        "activefilters": 0
+    },
+    {
+        "id": 1,
+        "name": "Digital twin",
+        "active": true,
+        "activefilters": 0
+    },
+    {
+        "id": 2,
+        "name": "Face filter",
+        "active": false,
+        "activefilters": 1,
+        "filters": [
+            {
+                "name": "Monkey face",
+                "image": "facefilter.png"
+            },
+            {
+                "name": "Elephant face",
+                "image": "facefilter.png"
+            },
+            {
+                "name": "Tiger face",
+                "image": "facefilter.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Distorting mirror",
+        "active": true,
+        "activefilters": 2,
+        "image": "distorting.png"
+    },
+    {
+        "id": 4,
+        "name": "Background filter",
+        "active": true,
+        "activefilters": 2,
+        "image": "background.png"
+    }
+]
